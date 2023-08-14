@@ -25,3 +25,19 @@ li{
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main{
+
+  .container{
+    display: flex;
+
+    .menuContainer{
+      width: 250px;
+      background: #000;
+    }
+
+    .contentContainer{
+      width: 100%;
+    }
+  }
+}
